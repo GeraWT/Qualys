@@ -35,4 +35,4 @@ if (!(Test-Path "C:\Temp\Qualys-main")) {
 } 
 #Ejecuto proceso de desinstalacion
 #Start-Process -FilePath "C:\Temp\Qualys-main\QualysCloudAgent.exe" -ArgumentList "/S CustomerId={5591b12a-9a3f-ee57-828e-1b151dbcf953} ActivationId={ec733490-624d-4dcd-9053-27c4ea8d8cc2} WebServiceUri=https://qagpublic.qg3.apps.qualys.com/CloudAgent/" -Verb RunAs
-Start-Process -FilePath "C:\Temp\Qualys-main\instalar.cmd" -Verb RunAs
+Start-Process -FilePath "cmd.exe" -Verb RunAs -ArgumentList '/k', 'C:\Temp\Qualys-main\instalar.bat'
