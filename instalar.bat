@@ -1,0 +1,1 @@
+C:\Temp\Qualys-main\QualysCloudAgent.exe CustomerId={9c84edb3-1be3-7a0a-81ce-0833fb3836ff} ActivationId={12012213-90ac-45f2-8470-b84441fb27df} WebServiceUri=https://qagpublic.qg3.apps.qualys.com/CloudAgent/
